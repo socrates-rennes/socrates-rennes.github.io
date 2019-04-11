@@ -135,6 +135,8 @@
             <a class="nav-bar-item" target="_blank"
                 href="https://www.helloasso.com/associations/socratesfr/evenements/socrates-day-rennes-2019">Billetterie</a>
             <a class="nav-bar-item" target="_blank" href="#en-pratique">Accès</a>
+            <a class="nav-bar-item" target="_blank" href="#a-propos">A propos...</a>
+            <a class="nav-bar-item" target="_blank" href="#sponsors">Sponsors</a>
         </div>
     </nav>
 
@@ -261,7 +263,7 @@
     </section>
 
     <!-- A propos de Socrates -->
-    <section class="testimonials text-center bg-light">
+    <section id="a-propos" class="testimonials text-center bg-light">
         <div class="container">
             <h2 class="mb-5">A propos de SoCraTes...</h2>
             <div class="row">
@@ -299,16 +301,27 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/alvaro-serrano-133380-unsplash.jpg" alt="">
-                        <h5>Déroulement</h5>
-                        <p class="font-weight-light mb-0">"Le format open space..."</p>
+                        <a href="#" class="portfolio-link" data-toggle="modal" data-target="#modalOpenSpace">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid rounded-circle" src="img/alvaro-serrano-133380-unsplash.jpg" alt="">
+                        </a>
+                        <div class="mt-3">
+                            <h5>Déroulement</h5>
+                            <p class="font-weight-light mb-0">"Le format open space..."</p>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- Sponsors -->
-    <section class="testimonials sponsors text-center">
+    <section id="sponsors" class=" testimonials sponsors text-center">
         <div class="container">
             <h2 class="mb-5">Sponsors</h2>
             <div class="row">
@@ -585,6 +598,50 @@
                     <p>Ce code de conduite s’applique à la conférence SoCraTes elle-même et à tous les espaces
                         numériques
                         liés à la conférence SoCraTes.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                        Fermer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalOpenSpace" tabindex="-1" role="dialog" aria-labelledby="modalOpenSpaceLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div style="display: flex; justify-content: space-between">
+                        <h2>Le format Open Space</h2>
+                        <a href="#" data-dismiss="modal">X</a>
+                    </div>
+                    <p>
+                        Les conférence SoCraTes sont organisées en mode Forum Ouvert (Open Space
+                        technology)
+                        <br>
+                        Cela se traduit par une loi, quatre principes et deux animaux totems.
+
+                        <h3>Les 4 principes</h3>
+                        <ul>
+                            <li>les personnes présentes sont les bonnes ;</li>
+                            <li>ce qui arrive, est la seule chose qui pouvait arriver ;</li>
+                            <li>ça commence quand ça commence ;</li>
+                            <li>ça fini quand ça fini.</li>
+                        </ul>
+                        <h3>La loi de la mobilité ou loi des deux pieds</h3>
+                        Si vous n’êtes ni en train d’apprendre,
+                        ni de
+                        contribuer, passez à autre chose !
+
+                        <h3>Les animaux totems</h3>
+                        <ul>
+                            <li>Les papillons prennent une pause ou réfléchissent.</li>
+                            <li>Les abeilles font circuler les idées d’atelier en ateliers.</li>
+                        </ul>
+                        <a href="https://fr.wikipedia.org/wiki/M%C3%A9thodologie_Forum_Ouvert">d'après Wikipedia</a>
+                    </p>
 
                 </div>
                 <div class="modal-footer">
