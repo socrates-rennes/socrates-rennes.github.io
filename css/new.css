@@ -93,6 +93,10 @@ requis du fait des conflits entre micromodal.js et spectre.css
     margin: 1rem;
 }
 
+.rounded .img-responsive {
+    height: 192px;
+}
+
 .list-inline {
     padding: 0;
     margin: 0;
