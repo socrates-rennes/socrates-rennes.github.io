@@ -177,11 +177,11 @@
         <div class="columns bg-gray vertically-spaced">
             <div class="column col-1"></div>
             <div class="column col-3 centered">
-                <div class="rounded">
+                <div class="rounded c-hand" data-micromodal-trigger="modal-family">
                     <div class="brooke-cagle-609873-unsplash-min"></div>
                 </div>
-                <h5>La famille SoCraTes</h5>
-                <p>Autres conférences...</p>
+                <h5 class="c-hand" data-micromodal-trigger="modal-family">La famille SoCraTes</h5>
+                <p><a class="c-hand" data-micromodal-trigger="modal-family">Autres conférences...</a></p>
             </div>
             <div class="column col-4 centered">
                 <div class="rounded">
@@ -263,15 +263,13 @@
     </footer>
     <!-- Auto Organisation modal -->
     <div class="modal modal-lg" id="modal-orga" aria-hidden="true">
-
         <div tabindex="-1" class="modal-overlay" aria-label="Close" data-micromodal-close>
-
             <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-orga-title">
                 <div class="modal-header">
                     <a href="#close" class="btn btn-clear float-right" aria-label="Fermer" data-micromodal-close></a>
                     <div class="modal-title h5" id="modal-orga-title">Comment se déroulera la journée ?</div>
                 </div>
-                <div class="modal-body" id="modal-1-content">
+                <div class="modal-body" id="modal-orga-content">
                     <div class="content">
                         La journée sera facilitée par <a href="https://twitter.com/jfallet" target="_blank">Julien Fallet</a>. Après un premier atelier pour faire connaissance, chacun
                         pourra proposer, s'il le
@@ -307,6 +305,152 @@
                         vous joindre à un groupe qui traitera de l’un des sujets qui sera proposé, avant d’en
                         rejoindre un autre, puis faire une
                         pause, et ainsi de suite.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" aria-label="Fermer la fenêtre modale" data-micromodal-close>Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  modal -->
+    <div class="modal modal-lg" id="modal-family" aria-hidden="true">
+        <div tabindex="-1" class="modal-overlay" aria-label="Close" data-micromodal-close>
+            <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-family-title">
+                <div class="modal-header">
+                    <a href="#close" class="btn btn-clear float-right" aria-label="Fermer" data-micromodal-close></a>
+                    <div class="modal-title h5" id="modal-family-title">SoCraTes Rennes fait partie d’une grande famille.</div>
+                </div>
+                <div class="modal-body" id="modal-family-content">
+                    <div class="content">
+                        <p>La première “Software Craftsmanship and Testing (un)conference” a eu lieu il y a quelques années
+                            en
+                            Allemagne et est organisée chaque année depuis 2011.</p>
+                        <p>D’autres conférences ont émergé dans d’autres pays européens comme SoCraTes UK ou SoCraTes FR.
+                        </p>
+                        <div class="columns">
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes FR</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">France</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTes_FR/">
+                                                    <img src="img/twitter.svg">
+                                                </a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="https://socrates-fr.github.io">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Germany</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTes_Conf"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="https://www.socrates-conference.de">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes UK</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">United Kingdom</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTes_UK"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://socratesuk.org">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes Canaries</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Spain</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/socracan"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="https://www.socracan.com/">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes Day Switzerland</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Switzerland</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTesDay_CH"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://socrates-day.ch">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes BE</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Belgium</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTes_BE"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://socratesbe.org">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">SoCraTes IT</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Italy</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/SoCraTes_Italy"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://www.socrates-conference.it">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">CodeFreeze</div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Finland</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/codefreeze_fi"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://www.codefreeze.fi">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-4">
+                                <div class="centered panel">
+                                    <div class="panel-title">I T.A.K.E. Unconference</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="text-dark">Romania</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/itakeunconf"><img src="img/twitter.svg"></a></li>
+                                            <li class="list-inline-item"><a target="_blank" href="http://itakeunconf.com">
+                                                    <img src="img/link.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
