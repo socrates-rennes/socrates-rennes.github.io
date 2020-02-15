@@ -116,7 +116,7 @@
                         </p>
                         <p>
                             <strong>
-                                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#modalQuestions">En savoir plus...</a>
+                                <a class="c-hand" data-micromodal-trigger="modal-orga">En savoir plus...</a>
                             </strong>
                         </p>
                     </div>
@@ -261,7 +261,65 @@
         </div>
         </div>
     </footer>
+    <!-- Auto Organisation modal -->
+    <div class="modal modal-lg" id="modal-orga" aria-hidden="true">
+
+        <div tabindex="-1" class="modal-overlay" aria-label="Close" data-micromodal-close>
+
+            <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-orga-title">
+                <div class="modal-header">
+                    <a href="#close" class="btn btn-clear float-right" aria-label="Fermer" data-micromodal-close></a>
+                    <div class="modal-title h5" id="modal-orga-title">Comment se déroulera la journée ?</div>
+                </div>
+                <div class="modal-body" id="modal-1-content">
+                    <div class="content">
+                        La journée sera facilitée par <a href="https://twitter.com/jfallet" target="_blank">Julien Fallet</a>. Après un premier atelier pour faire connaissance, chacun
+                        pourra proposer, s'il le
+                        souhaite, un ou plusieurs sujets, qui serviront à bâtir le programme de la journée.<br>
+                        <h3>Vous pourrez poser des questions comme...</h3>
+                        <ul>
+                            <li>j’aimerais découvrir le langage Go, est-ce que quelqu’un pourrait proposer une
+                                initiation ?</li>
+                            <li>je voudrais organiser des coding dojos sur mon lieu de travail, mais je ne sais pas
+                                comment m’y prendre,
+                                auriez-vous des suggestions ?</li>
+                            <li>comment introduire le TDD sur un projet ?</li>
+                            <li>comment découper une application monolithique ?</li>
+                            <li>l’architecture hexagonale est-elle pertinente sur tous les projets ?</li>
+                            <li>comment réduire la durée d’exécution des tests de mon application ?</li>
+                            <li>comment recruter des développeurs ou des testeurs ?</li>
+                            <li>comment organiser sa veille technique ?</li>
+                            <li>qu'attendez-vous de vos outils de développement ?</li>
+                        </ul>
+                        <h3>Ou faire des propositions telles que...</h3>
+                        <ul>
+                            <li>qui veut essayer le <a href="https://blog.myagilepartner.fr/index.php/2019/02/18/tests-tcr-test-commit-revert/" target="_blank">Test Commit Revert</a> avec moi ?</li>
+                            <li>&nbsp;je vous propose de faire un <a href="http://kata-log.rocks/" target="_blank">Kata​</a> pour découvrir ou
+                                simplement pratiquer Kotlin</li>
+                            <li>nous allons faire le <a href="https://github.com/testdouble/contributing-tests/wiki/Greeting-Kata" target="_blank">greeting Kata</a> en mode “malfaisant” : le principe est
+                                d’écrire le code rassemblant le
+                                plus de mauvaises pratiques possibles, mais qui fonctionne malgré tout</li>
+                            <li>je propose un atelier d’initiation à l’écriture de tests d’IHM avec Cypress</li>
+                            <li>nous allons coder un Tic-Tac-Toe en Rust</li>
+                            <li>je vais faire un livecoding sur le refactoring d'une app legacy</li>
+                        </ul>
+                        <h3>Ou tout simplement...</h3>
+                        vous joindre à un groupe qui traitera de l’un des sujets qui sera proposé, avant d’en
+                        rejoindre un autre, puis faire une
+                        pause, et ainsi de suite.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" aria-label="Fermer la fenêtre modale" data-micromodal-close>Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="vendor/zenscroll-min.js"></script>
+    <script type="text/javascript" src="vendor/micromodal-min.js"></script>
+    <script type="text/javascript">
+        MicroModal.init();
+    </script>
 </body>
 
 </html>

@@ -66,6 +66,18 @@ h5 {
     color: #0E9BB0;
 }
 
+/*
+corrige la couleur de l'overlay et la position des modales ;
+requis du fait des conflits entre micromodal.js et spectre.css
+*/
+.modal.modal-lg .modal-overlay {
+    background: rgba(240,253,255,.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .lead {
     font-size: 1.15rem;
 }
