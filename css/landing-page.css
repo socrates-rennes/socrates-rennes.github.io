@@ -21,10 +21,10 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/pedro-lastra-164905-unsplash.jpg") no-repeat center center;
+  background: url("../img/pedro-lastra-164905-unsplash-min.jpg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../img/pedro-lastra-164905-unsplash.jpg"), url("../img/pedro-lastra-164905-unsplash-low-res.jpg");
+  background-image: url("../img/pedro-lastra-164905-unsplash-min.jpg"), url("../img/pedro-lastra-164905-unsplash-low-res-min.jpg");
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
