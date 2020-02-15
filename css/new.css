@@ -17,8 +17,17 @@ h2 {
     color: #0E9BB0;
 }
 
+.hero-lg h2 {
+    color: #0bc2dd;
+}
+
 h3 {
     font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: #018093;
 }
 
 h5 {
@@ -27,7 +36,7 @@ h5 {
 
 a, a:visited
 {
-    color: #018093;
+    color: #027c8e;
 }
 
 .centered {
@@ -62,6 +71,12 @@ a, a:visited
     background-color: rgba(67,67,67,1);
     color : white;
 }
+
+.hero-lg btn {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
 
 .bg-gray {
     background: #f8f9fa !important;
