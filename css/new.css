@@ -1,3 +1,7 @@
+body {
+    color: #444;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -5,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 4rem;
-    color: #0E9BB0;
+    color: #FFF;
 }
 
 h2 {
@@ -47,8 +51,19 @@ h5 {
 }
 
 .hero-lg {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(139,165,166,1) 100%);
+    /*background: rgb(255,255,255);
+
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(67,67,67,1) 100%);*/
+    background-color: rgba(67,67,67,1);
+    color : white;
+}
+
+.bg-gray {
+    background: #f8f9fa !important;
+}
+
+.navbar-section a:visited {
+    color: #0E9BB0;
 }
 
 .lead {
