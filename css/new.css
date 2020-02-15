@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #0E9BB0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0E9BB0;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    color: #0E9BB0;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.debug {
+    border-color: red;
+    background-color: red;
+}
+
+.vertically-spaced {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.vertically-centered {
+    align-items: center;
+}
+
+.icon {
+    color: #0E9BB0;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.hero-lg {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(139,165,166,1) 100%);
+}
+
+.lead {
+    font-size: 1.15rem;
+}
+
+.stretch {
+    max-width: 100%;
+}
+
+.rounded {
+    border-radius: 50%;
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+/* Spritesheet */
+.benoit-min, .houssam-min, .pascal-min, .alvaro-serrano-133380-unsplash-min, .brooke-cagle-609873-unsplash-min,
+.bruno-cervera-578520-unsplash-min, .gael-min, .headway-537308-unsplash-min, .nicolas-ladino-silva-267845-unsplash-min
+{ display: inline-block; background: url('../img/spritesheet.jpg') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.benoit-min { background-position: -1px -0px; width: 192px; height: 192px; }
+.houssam-min { background-position: -194px -0px; width: 192px; height: 192px; }
+.pascal-min { background-position: -387px -0px; width: 192px; height: 192px; }
+.alvaro-serrano-133380-unsplash-min { background-position: -1px -193px; width: 192px; height: 192px; }
+.brooke-cagle-609873-unsplash-min { background-position: -194px -193px; width: 192px; height: 192px; }
+.bruno-cervera-578520-unsplash-min { background-position: -387px -193px; width: 192px; height: 192px; }
+.gael-min { background-position: -1px -386px; width: 192px; height: 192px; }
+.headway-537308-unsplash-min { background-position: -194px -386px; width: 192px; height: 192px; }
+.nicolas-ladino-silva-267845-unsplash-min { background-position: -387px -386px; width: 192px; height: 192px; }
