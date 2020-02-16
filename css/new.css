@@ -113,6 +113,10 @@ a.btn.btn-link.grow-hover:hover
     background-color: #f4f4f4 !important;
 }
 
+.main-content.modal-active {
+    filter: blur(4px);
+}
+
 /*
 corrige la couleur de l'overlay et la position des modales ;
 requis du fait d'un conflit entre micromodal.js et spectre.css

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="main-content container">
         <div class="columns">
             <div class="column">
                 <div class="column col-1"></div>
@@ -41,7 +41,7 @@
         </div>
     </div>
     <!-- HERO -->
-    <div class="columns">
+    <div class="main-content columns">
         <div class="column">
             <div class="hero hero-lg">
                 <div class="hero-body centered text-center">
@@ -64,7 +64,7 @@
         </div>
     </div>
     <!-- Principes -->
-    <div class="container">
+    <div class="main-content container">
         <div class="columns bg-gray vertically-spaced">
             <div class="column col-4 col-lg-12">
                 <div class="centered">
@@ -184,7 +184,7 @@
         </section>
     </div>
     <!-- A propos -->
-    <section id="a-propos">
+    <section id="a-propos" class="main-content" >
         <div class="text-center vertically-spaced bg-gray">
             <h2>À propos de SoCraTes Rennes...</h2>
         </div>
@@ -232,7 +232,7 @@
         </div>
     </section>
     <!-- Sponsors -->
-    <section id="sponsors">
+    <section id="sponsors" class="main-content" >
         <div class="container">
             <div class="columns">
                 <div class="column centered vertically-spaced">
@@ -249,7 +249,7 @@
         </div>
     </section>
     <!-- Billetterie -->
-    <section id="billetterie">
+    <section id="billetterie" class="main-content" >
         <div class="container">
             <div class="columns bg-gray">
                 <div class="column centered vertically-spaced">
@@ -264,7 +264,8 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+
+    <section id="contact" class="main-content">
         <div class="container">
             <div class="columns">
                 <div class="column centered vertically-spaced">
@@ -274,7 +275,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer>
+    <footer class="main-content">
         <div class="text-center bg-gray vertically-spaced" ><a href="2019/index.html">Édition 2019</a></div>
     </footer>
     <!-- Auto Organisation modal -->
@@ -798,7 +799,16 @@
     <script type="text/javascript" src="vendor/zenscroll-min.js"></script>
     <script type="text/javascript" src="vendor/micromodal-min.js"></script>
     <script type="text/javascript">
-    MicroModal.init({ disableScroll: true });
+    MicroModal.init({
+        disableScroll: true,
+        onShow: toggleContentActive,
+        onClose: toggleContentActive,
+    });
+
+    function toggleContentActive() {
+        let contentElements = document.querySelectorAll(".main-content");
+        contentElements.forEach(el => el.classList.toggle("modal-active"));
+    }
     </script>
 </body>
 
