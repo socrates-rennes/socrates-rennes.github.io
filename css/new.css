@@ -51,11 +51,6 @@ a, a:visited, .btn.btn-link
     flex-direction: column;
 }
 
-.debug {
-    border-color: red;
-    background-color: red;
-}
-
 .vertically-spaced {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -71,9 +66,6 @@ a, a:visited, .btn.btn-link
 }
 
 .hero-lg {
-    /*background: rgb(255,255,255);
-
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(67,67,67,1) 100%);*/
     background-color: rgba(67,67,67,1);
     color : white;
 }
@@ -99,7 +91,7 @@ a, a:visited, .btn.btn-link
 
 /*
 corrige la couleur de l'overlay et la position des modales ;
-requis du fait des conflits entre micromodal.js et spectre.css
+requis du fait d'un conflit entre micromodal.js et spectre.css
 */
 .modal.modal-lg .modal-overlay {
     background: rgba(240,253,255,.75);
