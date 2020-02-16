@@ -25,14 +25,24 @@ h4 {
     color: #018093;
 }
 
-h5 {
-    color: #0E9BB0;
-}
-
-a, a:visited, .btn.btn-link
+a, a:visited, a.btn.btn-link, a.btn.btn-link:visited, a.btn.btn-link:active
 {
     color: #027c8e;
     font-weight: bolder;
+}
+
+a:hover, a.btn.btn-link:hover
+{
+    color: #0E9BB0;
+    text-decoration: none;
+}
+
+
+
+a.btn.btn-link.grow-hover:hover
+{
+    transition:all 0.3s ease;
+    transform: scale(1.2);
 }
 
 .logo {
