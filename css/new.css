@@ -27,7 +27,7 @@ h4 {
 
 a, a:visited, a.btn.btn-link, a.btn.btn-link:visited, a.btn.btn-link:active
 {
-    color: #027c8e;
+    color: #007a8c;
     font-weight: bolder;
 }
 
@@ -54,14 +54,14 @@ a.btn.btn-link.grow-hover:hover
 }
 
 #large-logo {
-    animation-name: ckw;
+    animation-name: clockwork;
     animation-duration: 15.5s;
     animation-iteration-count: 4;
     transform-origin: 50% 50%;
     display: inline-block;
 }
 
-@keyframes ckw {
+@keyframes clockwork {
     0% {
         transform: rotate(0deg);
     }
