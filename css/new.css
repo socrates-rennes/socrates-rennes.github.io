@@ -70,7 +70,6 @@ a.btn.btn-link.grow-hover:hover
     }
 }
 
-
 .centered {
     display: flex;
     align-items: center;
@@ -111,7 +110,7 @@ a.btn.btn-link.grow-hover:hover
 }
 
 .bg-gray {
-    background: #f8f9fa !important;
+    background-color: #f4f4f4 !important;
 }
 
 /*
