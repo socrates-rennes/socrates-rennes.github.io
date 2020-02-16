@@ -34,9 +34,10 @@ h5 {
     color: #0E9BB0;
 }
 
-a, a:visited
+a, a:visited, .btn.btn-link
 {
-    color: rgb(1, 130, 149);
+    color: #027c8e;
+    font-weight: bolder;
 }
 
 .centered {
