@@ -8,12 +8,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4rem;
     color: #FFF;
 }
 
+
 h2 {
-    font-size: 2rem;
     color: #0E9BB0;
 }
 
@@ -21,12 +20,8 @@ h2 {
     color: #0bc2dd;
 }
 
-h3 {
-    font-size: 1.75rem;
-}
 
 h4 {
-    font-size: 1.25rem;
     color: #018093;
 }
 
