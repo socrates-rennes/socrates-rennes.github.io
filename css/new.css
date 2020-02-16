@@ -37,8 +37,6 @@ a:hover, a.btn.btn-link:hover
     text-decoration: none;
 }
 
-
-
 a.btn.btn-link.grow-hover:hover
 {
     transition:all 0.3s ease;
@@ -54,6 +52,24 @@ a.btn.btn-link.grow-hover:hover
     height: 32px;
     margin: 0.5rem;
 }
+
+#large-logo {
+    animation-name: ckw;
+    animation-duration: 15.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+}
+
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 .centered {
     display: flex;
