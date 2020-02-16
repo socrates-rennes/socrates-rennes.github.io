@@ -56,7 +56,7 @@ a.btn.btn-link.grow-hover:hover
 #large-logo {
     animation-name: ckw;
     animation-duration: 15.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     transform-origin: 50% 50%;
     display: inline-block;
 }
