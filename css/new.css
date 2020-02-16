@@ -78,9 +78,18 @@ a, a:visited, .btn.btn-link
     color : white;
 }
 
-.hero-lg btn {
+.hero-lg .btn {
     font-size: 1.1rem;
     font-weight: 700;
+    background-color: #0e9bb0;
+    border-color : #0e9bb0;
+    color: #FFF;
+}
+
+.hero-lg .btn:hover {
+    background-color: #027c8e;
+    border-color : #0e9bb0;
+    color: #FFF;
 }
 
 
@@ -127,10 +136,6 @@ requis du fait des conflits entre micromodal.js et spectre.css
 
 .list-inline-item {
     display: inline-block;
-}
-
-.hoverable-svg:hover {
-    fill: #0E9BB0;
 }
 
 /* Spritesheet */
