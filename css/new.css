@@ -35,6 +35,16 @@ a, a:visited, .btn.btn-link
     font-weight: bolder;
 }
 
+.logo {
+    color: rgba(67,67,67,1);
+}
+
+.small-logo {
+    width: 32px;
+    height: 32px;
+    margin: 0.5rem;
+}
+
 .centered {
     display: flex;
     align-items: center;
