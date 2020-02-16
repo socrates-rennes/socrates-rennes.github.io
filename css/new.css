@@ -94,7 +94,6 @@ a.btn.btn-link.grow-hover:hover
     color: #FFF;
 }
 
-
 .bg-gray {
     background: #f8f9fa !important;
 }
@@ -108,10 +107,6 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.lead {
-    font-size: 1.15rem;
 }
 
 .stretch {
