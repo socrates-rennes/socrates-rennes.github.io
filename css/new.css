@@ -118,7 +118,7 @@ corrige la couleur de l'overlay et la position des modales ;
 requis du fait d'un conflit entre micromodal.js et spectre.css
 */
 .modal.modal-lg .modal-overlay {
-    background: rgba(255,255,255,.75);
+    background: rgba(0,0,0,.8);
     display: flex;
     justify-content: center;
     align-items: center;
