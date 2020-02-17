@@ -128,6 +128,17 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     align-items: center;
 }
 
+@media (max-width:320px) {
+    .navbar {
+        flex-grow: 1;
+    }
+
+    .navbar-section.vertical-xxs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 .stretch {
     max-width: 100%;
 }
