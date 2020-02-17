@@ -2,8 +2,13 @@ body {
     color: #444;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -25,26 +30,28 @@ h4 {
     color: #018093;
 }
 
-a, a:visited, a.btn.btn-link, a.btn.btn-link:visited, a.btn.btn-link:active
-{
+a,
+a:visited,
+a.btn.btn-link,
+a.btn.btn-link:visited,
+a.btn.btn-link:active {
     color: #007a8c;
     font-weight: bolder;
 }
 
-a:hover, a.btn.btn-link:hover
-{
+a:hover,
+a.btn.btn-link:hover {
     color: #0E9BB0;
     text-decoration: none;
 }
 
-a.btn.btn-link.grow-hover:hover
-{
-    transition:all 0.3s ease;
+a.btn.btn-link.grow-hover:hover {
+    transition: all 0.3s ease;
     transform: scale(1.2);
 }
 
 .logo {
-    color: rgba(67,67,67,1);
+    color: rgba(67, 67, 67, 1);
 }
 
 .small-logo {
@@ -65,6 +72,7 @@ a.btn.btn-link.grow-hover:hover
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -91,21 +99,21 @@ a.btn.btn-link.grow-hover:hover
 }
 
 .hero-lg {
-    background-color: rgba(67,67,67,1);
-    color : white;
+    background-color: rgba(67, 67, 67, 1);
+    color: white;
 }
 
 .hero-lg .btn {
     font-size: 1.1rem;
     font-weight: 700;
     background-color: #0e9bb0;
-    border-color : #0e9bb0;
+    border-color: #0e9bb0;
     color: #FFF;
 }
 
 .hero-lg .btn:hover {
     background-color: #027c8e;
-    border-color : #0e9bb0;
+    border-color: #0e9bb0;
     color: #FFF;
 }
 
@@ -122,7 +130,7 @@ corrige la couleur de l'overlay et la position des modales ;
 requis du fait d'un conflit entre micromodal.js et spectre.css
 */
 .modal.modal-lg .modal-overlay {
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, .8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,16 +175,72 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 }
 
 /* Spritesheet */
-.benoit-min, .houssam-min, .pascal-min, .alvaro-serrano-133380-unsplash-min, .brooke-cagle-609873-unsplash-min,
-.bruno-cervera-578520-unsplash-min, .gael-min, .headway-537308-unsplash-min, .nicolas-ladino-silva-267845-unsplash-min
-{ display: inline-block; background: url('../img/spritesheet.jpg') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+.benoit-min,
+.houssam-min,
+.pascal-min,
+.alvaro-serrano-133380-unsplash-min,
+.brooke-cagle-609873-unsplash-min,
+.bruno-cervera-578520-unsplash-min,
+.gael-min,
+.headway-537308-unsplash-min,
+.nicolas-ladino-silva-267845-unsplash-min {
+    display: inline-block;
+    background: url('../img/spritesheet.jpg') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
 
-.benoit-min { background-position: -1px -0px; width: 192px; height: 192px; }
-.houssam-min { background-position: -194px -0px; width: 192px; height: 192px; }
-.pascal-min { background-position: -387px -0px; width: 192px; height: 192px; }
-.alvaro-serrano-133380-unsplash-min { background-position: -1px -193px; width: 192px; height: 192px; }
-.brooke-cagle-609873-unsplash-min { background-position: -194px -193px; width: 192px; height: 192px; }
-.bruno-cervera-578520-unsplash-min { background-position: -387px -193px; width: 192px; height: 192px; }
-.gael-min { background-position: -1px -386px; width: 192px; height: 192px; }
-.headway-537308-unsplash-min { background-position: -194px -386px; width: 192px; height: 192px; }
-.nicolas-ladino-silva-267845-unsplash-min { background-position: -387px -386px; width: 192px; height: 192px; }
+.benoit-min {
+    background-position: -1px -0px;
+    width: 192px;
+    height: 192px;
+}
+
+.houssam-min {
+    background-position: -194px -0px;
+    width: 192px;
+    height: 192px;
+}
+
+.pascal-min {
+    background-position: -387px -0px;
+    width: 192px;
+    height: 192px;
+}
+
+.alvaro-serrano-133380-unsplash-min {
+    background-position: -1px -193px;
+    width: 192px;
+    height: 192px;
+}
+
+.brooke-cagle-609873-unsplash-min {
+    background-position: -194px -193px;
+    width: 192px;
+    height: 192px;
+}
+
+.bruno-cervera-578520-unsplash-min {
+    background-position: -387px -193px;
+    width: 192px;
+    height: 192px;
+}
+
+.gael-min {
+    background-position: -1px -386px;
+    width: 192px;
+    height: 192px;
+}
+
+.headway-537308-unsplash-min {
+    background-position: -194px -386px;
+    width: 192px;
+    height: 192px;
+}
+
+.nicolas-ladino-silva-267845-unsplash-min {
+    background-position: -387px -386px;
+    width: 192px;
+    height: 192px;
+}
