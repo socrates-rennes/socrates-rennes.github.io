@@ -105,12 +105,16 @@ a.btn.btn-link.grow-hover:hover {
     color: white;
 }
 
-.hero-lg .btn {
+.hero-lg .btn, .btn-lg {
     font-size: 1.1rem;
     font-weight: 700;
     background-color: #0e9bb0;
     border-color: #0e9bb0;
     color: #FFF;
+}
+
+.btn-lg:hover {
+    background-color: #027c8e;
 }
 
 .hero-lg .btn:hover {
@@ -245,4 +249,8 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     background-position: -387px -386px;
     width: 192px;
     height: 192px;
+}
+
+#register {
+    color:  white;
 }
