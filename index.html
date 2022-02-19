@@ -24,6 +24,50 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <style>
+        .logo-sponsors {
+            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(9,1fr);
+        }
+
+        .logo-sponsors .first-sponsor {
+            grid-column: 2/3;
+            text-align: center;
+        }
+
+        .logo-sponsors .first-sponsor img {
+            max-width: 100%;
+        }
+
+        .logo-sponsors .second-sponsor {
+            grid-column: 4/5;
+            text-align: center;
+        }
+
+        .logo-sponsors .second-sponsor img {
+            height: auto;
+            max-width: 100%;
+        }
+
+        .logo-sponsors .third-sponsor {
+            grid-column: 6/7;
+            text-align: center;
+        }
+
+        .logo-sponsors .third-sponsor img {
+            max-width: 100%;
+        }
+
+        .logo-sponsors .fourth-sponsor {
+            grid-column: 8/9;
+            text-align: center;
+        }
+
+        .logo-sponsors .fourth-sponsor img {
+            max-width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -298,12 +342,22 @@
                 <div class="column centered vertically-spaced">
                     <h2>Sponsors</h2>
                     <p>SoCraTes Rennes n’est possible que grâce au soutien de nos sponsors.</p>
-                    <p>
-                        <strong>Vous voulez nous soutenir ?</strong>
-                    </p>
-                    <p>
-                        Contactez-nous en envoyant un email à socrates-rennes [at] orange.fr
-                    </p>
+                    <div style="display: block">
+                        <div class="logo-sponsors">
+                            <a href="https://getalma.eu/" target="_blank" rel="noopener noreferrer" class="first-sponsor">
+                                <img src="img/sponsors/alma.png"  alt="Alma"/>
+                            </a>
+                            <a href="https://istic.univ-rennes1.fr/" target="_blank" rel="noopener noreferrer" class="second-sponsor">
+                                <img src="img/sponsors/istic.png" alt="Istic"/>
+                            </a>
+                            <a href="https://www.maxds.fr/" target="_blank" rel="noopener noreferrer" class="third-sponsor">
+                                <img src="img/sponsors/maxds.png" alt="Max DS"/>
+                            </a>
+                            <a href="https://www.oxxeo.fr/" target="_blank" rel="noopener noreferrer" class="fourth-sponsor">
+                                <img src="img/sponsors/oxxeo.png" alt="Oxxeo"/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
