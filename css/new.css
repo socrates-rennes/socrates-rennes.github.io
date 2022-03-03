@@ -113,6 +113,19 @@ a.btn.btn-link.grow-hover:hover {
     color: #FFF;
 }
 
+#btn-newsletter {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #0e9bb082;
+    color: #FFF;
+    padding: 0.25rem;
+    border: solid 1px #0e9bb0;
+}
+
+#btn-newsletter:hover {
+    background-color: #0e9bb0;
+}
+
 .btn-lg:hover {
     background-color: #027c8e;
 }
@@ -253,6 +266,7 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 
 #register {
     color:  white;
+    padding:  0.5rem;
 }
 
 .logo-sponsors {
@@ -264,6 +278,6 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 
 div.logo-sponsors a img {
     max-height: 100px;
-    padding: 1rem;
+    margin: 1rem;
 }
 
