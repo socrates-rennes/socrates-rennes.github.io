@@ -268,9 +268,14 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     height: 192px;
 }
 
-#register {
-    color:  white;
-    padding:  0.5rem;
+#register1,#register2 {
+    color: #fff;
+    font-size: 1.8rem;
+    height: 3rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1.2rem;    
 }
 
 .logo-sponsors {
