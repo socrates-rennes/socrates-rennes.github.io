@@ -281,6 +281,7 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 .logo-sponsors {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
