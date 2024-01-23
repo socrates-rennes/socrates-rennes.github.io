@@ -275,7 +275,7 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     line-height: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin: 1.2rem;    
+    margin: 1.2rem;
 }
 
 .logo-sponsors {
@@ -286,7 +286,8 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
     justify-content: space-evenly;
 }
 
-div.logo-sponsors a img {
+div.logo-sponsors a img,
+div.logo-sponsors a svg {
     max-height: 100px;
     margin: 1rem;
 }
