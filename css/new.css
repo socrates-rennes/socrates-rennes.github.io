@@ -279,15 +279,29 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 }
 
 .logo-sponsors {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
-div.logo-sponsors a img,
-div.logo-sponsors a svg {
-    max-height: 100px;
-    margin: 1rem;
+.logo-sponsors :nth-child(4n+1) {
+    grid-column: 1 / 2;
+    width: 100%;
+}
+
+.logo-sponsors :nth-child(4n+2) {
+    grid-column: 2 / 3;
+    width: 100%;
+}
+
+.logo-sponsors :nth-child(4n+3) {
+    grid-column: 3 / 4;
+    width: 100%;
+}
+
+.logo-sponsors :nth-child(4n+4) {
+    grid-column: 4 / 5;
 }
