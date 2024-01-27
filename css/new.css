@@ -78,6 +78,10 @@ a.btn.btn-link.grow-hover:hover {
     }
 }
 
+.card, .card-image {
+    margin-top: 10px;    
+}
+
 .centered {
     display: flex;
     align-items: center;
