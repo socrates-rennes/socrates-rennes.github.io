@@ -38,11 +38,25 @@ a.btn.btn-link:active {
     color: #007a8c;
     font-weight: bolder;
 }
+a.underline,
+a.underline:visited,
+a.underline.btn.btn-link,
+a.underline.btn.btn-link:visited,
+a.underline.btn.btn-link:active {
+    color: inherit;
+    text-decoration: underline;
+}
+
 
 a:hover,
 a.btn.btn-link:hover {
     color: #0E9BB0;
     text-decoration: none;
+}
+a.underline:hover,
+a.underline.btn.btn-link:hover {
+    color: #0E9BB0;
+    text-decoration: underline;
 }
 
 a.btn.btn-link.grow-hover:hover {
