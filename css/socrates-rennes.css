@@ -309,3 +309,7 @@ requis du fait d'un conflit entre micromodal.js et spectre.css
 .logo-sponsors :nth-child(4n+4) {
     grid-column: 4 / 5;
 }
+
+.logo-sponsors img.square {
+    width: 70%;
+}
